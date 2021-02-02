@@ -1,0 +1,62 @@
+/* identification*/
+
+.image-enregistement{
+
+    background-image: url(../image/space-identifi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 200px;
+
+}
+
+.image-enregistement .welcome{
+    position: fixed;
+    left: 25%;
+    top: 25%;
+    width: 50%;
+    height: 60%;
+    background: rgba(255, 255, 255);
+    border-radius: 5%;
+}
+
+.image-enregistement .welcome a,h1{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.welcome input{
+    width: 55%;
+    height: 50px;
+    margin: 2%;
+    font-size: 20px;
+    padding: 0px 50px;
+}
+
+input.small{
+    width: 21.5%;
+}
+
+.image-enregistement .welcome a.button {
+    background-color: #c29457;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 28px;
+    margin: 30px 400px;
+    border-radius: 20px;
+}
+
+.image-enregistement .welcome.button:hover{
+    background-color:#f1a03585;
+}
+
+.welcome .logo{
+    width: 400px;
+    height: 140px;
+    margin-top: 5%;
+}
