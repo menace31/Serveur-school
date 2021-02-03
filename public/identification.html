@@ -13,22 +13,19 @@
     <html class="général">
         <main >
             <main class="welcome">
-                <form action ="" method ="POST">
+
                     <a href="index.html"> <img src="logo.PNG" class="logo"></a>
                     <h1>Créer votre compte Stud I</h1>
-                        <a>
-                            <input type="text" name = "prénom" class = "small" placeholder="Prénom">
+                        <form action ="/enregistrement" method ="POST">
+                            <input type="text" name = "prenom" class = "small" placeholder="Prénom">
                             <input type="text" name = "nom" class="small"  placeholder="Nom">
-                        </a>
-                        <a>
-                            <input type="email"  name = "e-mail" placeholder="adresse mail @student.clouvain.be">
-                        </a>
-                        <a>
-                            <input type="password" name = "password" class = "small" placeholder= "mot de passe">
-                            <input type="password" name = "password2" class = "small"  placeholder="confirmer mot de passe">
-                        </a>
-                        <a href="identification.html" class="button">suivant</a>
-                    </form>
+
+                            <input type="email"  name = "mail" placeholder="adresse mail @student.clouvain.be">
+
+                            <input type="password" name = "pwd" class = "small" placeholder= "mot de passe">
+                            <input type="password" name = "pwd2" class = "small"  placeholder="confirmer mot de passe">
+                            <button type="submit">suivant
+                        </form>
 
             </main>
         </main>
